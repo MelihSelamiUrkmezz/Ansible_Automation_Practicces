@@ -1,0 +1,11 @@
+-
+  name: 'Add user -> target1,target2'
+  hosts: all
+  tasks:
+    -
+      name: 'Add user commands'
+      user:
+        name: alikaancelik
+        comment: 'Alikaan Çelik'
+        uid: 1010
+        password:  "{{ 'password' | password_hash('sha512') }}"

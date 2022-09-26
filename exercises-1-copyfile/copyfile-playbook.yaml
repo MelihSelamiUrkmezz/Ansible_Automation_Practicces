@@ -1,0 +1,12 @@
+-
+  name: 'Copy file ansible_controller -> target1,target2'
+  hosts: all
+  tasks:
+    -
+      name: 'Copy file'
+      copy:
+        src: /home/melih_s_urkmez/files/
+        dest: /home/melih_s_urkmez/files
+        owner: melih_s_urkmez
+        group: melih_s_urkmez
+        mode: '0644'
