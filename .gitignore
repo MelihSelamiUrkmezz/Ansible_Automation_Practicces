@@ -1,2 +1,5 @@
 .remote-sync.json
 inventory.txt
+/Ansible-Course-Finally-Project/inventory.txt
+/exercises-5-runcontainer/inventory.txt
+/exercises-6-shutdownallmachines/inventory.txt

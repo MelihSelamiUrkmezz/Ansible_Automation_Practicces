@@ -1,0 +1,9 @@
+-
+  name: 'Stop the melihdeneme container all the machines'
+  hosts: all
+  tasks:
+    -
+      name: 'Stop container'
+      docker_container:
+        name: melihdeneme
+        state: stopped

@@ -1,0 +1,8 @@
+-
+  name: Shutdown all the machines.
+  hosts: all
+  become: yes
+  tasks:
+    -
+      name: Shutdown command the all machines.
+      command: power off
